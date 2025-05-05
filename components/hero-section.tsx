@@ -86,9 +86,9 @@ export default function HeroSection() {
 									y2="208"
 									fill="none"
 									stroke="currentColor"
-									stroke-linecap="round"
-									stroke-linejoin="round"
-									stroke-width="32"
+									strokeLinecap="round"
+									strokeLinejoin="round"
+									strokeWidth="32"
 								></line>
 								<line
 									x1="192"
@@ -97,9 +97,9 @@ export default function HeroSection() {
 									y2="192"
 									fill="none"
 									stroke="currentColor"
-									stroke-linecap="round"
-									stroke-linejoin="round"
-									stroke-width="32"
+									strokeLinecap="round"
+									strokeLinejoin="round"
+									strokeWidth="32"
 								></line>
 							</svg>
 							<span className="font-medium">shadcn/ui</span>
@@ -146,8 +146,8 @@ export default function HeroSection() {
 										y1="20.687%"
 										y2="44.071%"
 									>
-										<stop offset="0%" stop-color="#249361" />
-										<stop offset="100%" stop-color="#3ecf8e" />
+										<stop offset="0%" stopColor="#249361" />
+										<stop offset="100%" stopColor="#3ecf8e" />
 									</linearGradient>
 									<linearGradient
 										id="logosSupabaseIcon1"
@@ -157,7 +157,7 @@ export default function HeroSection() {
 										y2="34.708%"
 									>
 										<stop offset="0%" />
-										<stop offset="100%" stop-opacity="0" />
+										<stop offset="100%" stopOpacity="0" />
 									</linearGradient>
 								</defs>
 								<path
@@ -166,7 +166,7 @@ export default function HeroSection() {
 								/>
 								<path
 									fill="url(#logosSupabaseIcon1)"
-									fill-opacity="0.2"
+									fillOpacity="0.2"
 									d="M149.602 258.579c-6.718 8.46-20.338 3.824-20.5-6.977l-2.367-157.984h106.229c19.24 0 29.971 22.223 18.007 37.292z"
 								/>
 								<path
@@ -191,8 +191,8 @@ export default function HeroSection() {
 										y1="32%"
 										y2="67.556%"
 									>
-										<stop offset="0%" stop-color="#2298bd" />
-										<stop offset="100%" stop-color="#0ed7b5" />
+										<stop offset="0%" stopColor="#2298bd" />
+										<stop offset="100%" stopColor="#0ed7b5" />
 									</linearGradient>
 								</defs>
 								<path
@@ -217,8 +217,8 @@ export default function HeroSection() {
 										y1="56.385%"
 										y2="96.08%"
 									>
-										<stop offset="0%" stop-color="#fff" />
-										<stop offset="100%" stop-color="#fff" stop-opacity="0" />
+										<stop offset="0%" stopColor="#fff" />
+										<stop offset="100%" stopColor="#fff" stopOpacity="0" />
 									</linearGradient>
 									<linearGradient
 										id="logosNextjsIcon1"
@@ -227,8 +227,8 @@ export default function HeroSection() {
 										y1="0%"
 										y2="73.438%"
 									>
-										<stop offset="0%" stop-color="#fff" />
-										<stop offset="100%" stop-color="#fff" stop-opacity="0" />
+										<stop offset="0%" stopColor="#fff" />
+										<stop offset="100%" stopColor="#fff" stopOpacity="0" />
 									</linearGradient>
 									<circle id="logosNextjsIcon2" cx="128" cy="128" r="128" />
 								</defs>
