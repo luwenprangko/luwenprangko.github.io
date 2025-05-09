@@ -58,10 +58,10 @@ export default function HeroSection() {
 
 					<div className="flex flex-col sm:flex-row gap-4 mt-4">
 						<Button size="lg" className="w-full sm:w-auto">
-							<span>Get Started</span>
+							<span>Know More</span>
 						</Button>
 						<Button size="lg" variant="outline" className="w-full sm:w-auto">
-							<span>Learn More</span>
+							<span>Tech Stack</span>
 						</Button>
 					</div>
 				</div>

@@ -11,28 +11,14 @@ const techStacks = [
 		name: "React",
 		icon: (
 			<svg
-				viewBox="0 0 24 24"
-				className="h-5 w-5"
-				fill="none"
 				xmlns="http://www.w3.org/2000/svg"
+				width="26.95"
+				height="24"
+				viewBox="0 0 256 228"
 			>
-				<circle cx="12" cy="12" r="2" fill="currentColor" />
 				<path
-					d="M12 6C14.7614 6 17.2614 6.38625 19.0733 7.05C20.7945 7.67875 22 8.64875 22 10C22 11.3512 20.7945 12.3213 19.0733 12.95C17.2614 13.6138 14.7614 14 12 14C9.23858 14 6.73858 13.6138 4.92672 12.95C3.20551 12.3213 2 11.3512 2 10C2 8.64875 3.20551 7.67875 4.92672 7.05C6.73858 6.38625 9.23858 6 12 6Z"
-					stroke="currentColor"
-					strokeWidth="1.5"
-				/>
-				<path
-					d="M15.5 4.20577C16.3333 5.60289 17 7.23198 17.5 9.00003C18 10.768 18.3333 12.6091 18.5 14.5232"
-					stroke="currentColor"
-					strokeWidth="1.5"
-					strokeLinecap="round"
-				/>
-				<path
-					d="M8.5 4.20577C7.66667 5.60289 7 7.23198 6.5 9.00003C6 10.768 5.66667 12.6091 5.5 14.5232"
-					stroke="currentColor"
-					strokeWidth="1.5"
-					strokeLinecap="round"
+					fill="#00d8ff"
+					d="M210.483 73.824a172 172 0 0 0-8.24-2.597c.465-1.9.893-3.777 1.273-5.621c6.238-30.281 2.16-54.676-11.769-62.708c-13.355-7.7-35.196.329-57.254 19.526a171 171 0 0 0-6.375 5.848a156 156 0 0 0-4.241-3.917C100.759 3.829 77.587-4.822 63.673 3.233C50.33 10.957 46.379 33.89 51.995 62.588a171 171 0 0 0 1.892 8.48c-3.28.932-6.445 1.924-9.474 2.98C17.309 83.498 0 98.307 0 113.668c0 15.865 18.582 31.778 46.812 41.427a146 146 0 0 0 6.921 2.165a168 168 0 0 0-2.01 9.138c-5.354 28.2-1.173 50.591 12.134 58.266c13.744 7.926 36.812-.22 59.273-19.855a146 146 0 0 0 5.342-4.923a168 168 0 0 0 6.92 6.314c21.758 18.722 43.246 26.282 56.54 18.586c13.731-7.949 18.194-32.003 12.4-61.268a145 145 0 0 0-1.535-6.842c1.62-.48 3.21-.974 4.76-1.488c29.348-9.723 48.443-25.443 48.443-41.52c0-15.417-17.868-30.326-45.517-39.844m-6.365 70.984q-2.102.694-4.3 1.345c-3.24-10.257-7.612-21.163-12.963-32.432c5.106-11 9.31-21.767 12.459-31.957c2.619.758 5.16 1.557 7.61 2.4c23.69 8.156 38.14 20.213 38.14 29.504c0 9.896-15.606 22.743-40.946 31.14m-10.514 20.834c2.562 12.94 2.927 24.64 1.23 33.787c-1.524 8.219-4.59 13.698-8.382 15.893c-8.067 4.67-25.32-1.4-43.927-17.412a157 157 0 0 1-6.437-5.87c7.214-7.889 14.423-17.06 21.459-27.246c12.376-1.098 24.068-2.894 34.671-5.345q.785 3.162 1.386 6.193M87.276 214.515c-7.882 2.783-14.16 2.863-17.955.675c-8.075-4.657-11.432-22.636-6.853-46.752a157 157 0 0 1 1.869-8.499c10.486 2.32 22.093 3.988 34.498 4.994c7.084 9.967 14.501 19.128 21.976 27.15a135 135 0 0 1-4.877 4.492c-9.933 8.682-19.886 14.842-28.658 17.94M50.35 144.747c-12.483-4.267-22.792-9.812-29.858-15.863c-6.35-5.437-9.555-10.836-9.555-15.216c0-9.322 13.897-21.212 37.076-29.293c2.813-.98 5.757-1.905 8.812-2.773c3.204 10.42 7.406 21.315 12.477 32.332c-5.137 11.18-9.399 22.249-12.634 32.792a135 135 0 0 1-6.318-1.979m12.378-84.26c-4.811-24.587-1.616-43.134 6.425-47.789c8.564-4.958 27.502 2.111 47.463 19.835a144 144 0 0 1 3.841 3.545c-7.438 7.987-14.787 17.08-21.808 26.988c-12.04 1.116-23.565 2.908-34.161 5.309a160 160 0 0 1-1.76-7.887m110.427 27.268a348 348 0 0 0-7.785-12.803c8.168 1.033 15.994 2.404 23.343 4.08c-2.206 7.072-4.956 14.465-8.193 22.045a381 381 0 0 0-7.365-13.322m-45.032-43.861c5.044 5.465 10.096 11.566 15.065 18.186a322 322 0 0 0-30.257-.006c4.974-6.559 10.069-12.652 15.192-18.18M82.802 87.83a323 323 0 0 0-7.227 13.238c-3.184-7.553-5.909-14.98-8.134-22.152c7.304-1.634 15.093-2.97 23.209-3.984a322 322 0 0 0-7.848 12.897m8.081 65.352c-8.385-.936-16.291-2.203-23.593-3.793c2.26-7.3 5.045-14.885 8.298-22.6a321 321 0 0 0 7.257 13.246c2.594 4.48 5.28 8.868 8.038 13.147m37.542 31.03c-5.184-5.592-10.354-11.779-15.403-18.433c4.902.192 9.899.29 14.978.29c5.218 0 10.376-.117 15.453-.343c-4.985 6.774-10.018 12.97-15.028 18.486m52.198-57.817c3.422 7.8 6.306 15.345 8.596 22.52c-7.422 1.694-15.436 3.058-23.88 4.071a382 382 0 0 0 7.859-13.026a347 347 0 0 0 7.425-13.565m-16.898 8.101a359 359 0 0 1-12.281 19.815a329 329 0 0 1-23.444.823c-7.967 0-15.716-.248-23.178-.732a310 310 0 0 1-12.513-19.846h.001a307 307 0 0 1-10.923-20.627a310 310 0 0 1 10.89-20.637l-.001.001a307 307 0 0 1 12.413-19.761c7.613-.576 15.42-.876 23.31-.876H128c7.926 0 15.743.303 23.354.883a329 329 0 0 1 12.335 19.695a359 359 0 0 1 11.036 20.54a330 330 0 0 1-11 20.722m22.56-122.124c8.572 4.944 11.906 24.881 6.52 51.026q-.518 2.504-1.15 5.09c-10.622-2.452-22.155-4.275-34.23-5.408c-7.034-10.017-14.323-19.124-21.64-27.008a161 161 0 0 1 5.888-5.4c18.9-16.447 36.564-22.941 44.612-18.3M128 90.808c12.625 0 22.86 10.235 22.86 22.86s-10.235 22.86-22.86 22.86s-22.86-10.235-22.86-22.86s10.235-22.86 22.86-22.86"
 				/>
 			</svg>
 		),
@@ -44,18 +30,6 @@ const techStacks = [
 				title: "Building Custom Hooks",
 				description: "Create reusable logic with custom React hooks",
 				level: "Intermediate",
-			},
-			{
-				title: "State Management Patterns",
-				description:
-					"Compare useState, useReducer, Context API, and external libraries",
-				level: "Advanced",
-			},
-			{
-				title: "Performance Optimization",
-				description:
-					"Techniques to minimize renders and improve React app performance",
-				level: "Advanced",
 			},
 		],
 		codeSnippet: `import React, { useState, useEffect, useCallback, useMemo } from 'react';
@@ -130,32 +104,48 @@ export default Counter;`,
 		name: "Next.js",
 		icon: (
 			<svg
-				viewBox="0 0 24 24"
-				className="h-5 w-5"
-				fill="none"
 				xmlns="http://www.w3.org/2000/svg"
+				width="24"
+				height="24"
+				viewBox="0 0 256 256"
 			>
-				<path
-					d="M11.5711 2.22061C11.7261 2.12517 11.9079 2.07495 12.0931 2.07495C12.2783 2.07495 12.4601 2.12517 12.6151 2.22061L20.4151 6.72061C20.5727 6.81783 20.7006 6.95859 20.7848 7.12616C20.8689 7.29373 20.9063 7.48159 20.8931 7.66961V16.3296C20.9063 16.5176 20.8689 16.7055 20.7848 16.8731C20.7006 17.0406 20.5727 17.1814 20.4151 17.2786L12.6151 21.7786C12.4601 21.8741 12.2783 21.9243 12.0931 21.9243C11.9079 21.9243 11.7261 21.8741 11.5711 21.7786L3.77105 17.2786C3.61343 17.1814 3.48555 17.0406 3.40141 16.8731C3.31728 16.7055 3.27989 16.5176 3.29305 16.3296V7.66961C3.27989 7.48159 3.31728 7.29373 3.40141 7.12616C3.48555 6.95859 3.61343 6.81783 3.77105 6.72061L11.5711 2.22061Z"
-					stroke="currentColor"
-					strokeWidth="1.5"
-					strokeLinecap="round"
-					strokeLinejoin="round"
-				/>
-				<path
-					d="M16.5 14L7.5 5"
-					stroke="currentColor"
-					strokeWidth="1.5"
-					strokeLinecap="round"
-					strokeLinejoin="round"
-				/>
-				<path
-					d="M16.5 9V14H11.5"
-					stroke="currentColor"
-					strokeWidth="1.5"
-					strokeLinecap="round"
-					strokeLinejoin="round"
-				/>
+				<defs>
+					<linearGradient
+						id="logosNextjsIcon0"
+						x1="55.633%"
+						x2="83.228%"
+						y1="56.385%"
+						y2="96.08%"
+					>
+						<stop offset="0%" stopColor="#fff" />
+						<stop offset="100%" stopColor="#fff" stopOpacity="0" />
+					</linearGradient>
+					<linearGradient
+						id="logosNextjsIcon1"
+						x1="50%"
+						x2="49.953%"
+						y1="0%"
+						y2="73.438%"
+					>
+						<stop offset="0%" stopColor="#fff" />
+						<stop offset="100%" stopColor="#fff" stopOpacity="0" />
+					</linearGradient>
+					<circle id="logosNextjsIcon2" cx="128" cy="128" r="128" />
+				</defs>
+				<mask id="logosNextjsIcon3" fill="#fff">
+					<use href="#logosNextjsIcon2" />
+				</mask>
+				<g mask="url(#logosNextjsIcon3)">
+					<circle cx="128" cy="128" r="128" />
+					<path
+						fill="url(#logosNextjsIcon0)"
+						d="M212.634 224.028L98.335 76.8H76.8v102.357h17.228V98.68L199.11 234.446a128 128 0 0 0 13.524-10.418"
+					/>
+					<path
+						fill="url(#logosNextjsIcon1)"
+						d="M163.556 76.8h17.067v102.4h-17.067z"
+					/>
+				</g>
 			</svg>
 		),
 		title: "Next.js App Router",
@@ -167,18 +157,6 @@ export default Counter;`,
 				description:
 					"Leverage server components for improved performance and SEO",
 				level: "Intermediate",
-			},
-			{
-				title: "Data Fetching Strategies",
-				description:
-					"Learn different approaches to fetch and cache data in Next.js",
-				level: "Intermediate",
-			},
-			{
-				title: "Route Handlers & API Routes",
-				description:
-					"Build backend functionality directly in your Next.js application",
-				level: "Advanced",
 			},
 		],
 		codeSnippet: `// app/products/[category]/page.tsx
@@ -267,38 +245,18 @@ async function ProductList({ category }) {
 		name: "TypeScript",
 		icon: (
 			<svg
-				viewBox="0 0 24 24"
-				className="h-5 w-5"
-				fill="none"
 				xmlns="http://www.w3.org/2000/svg"
+				width="24"
+				height="24"
+				viewBox="0 0 256 256"
 			>
 				<path
-					d="M3 3H21V21H3V3Z"
-					stroke="currentColor"
-					strokeWidth="1.5"
-					strokeLinecap="round"
-					strokeLinejoin="round"
+					fill="#3178c6"
+					d="M128 0c70.692 0 128 57.308 128 128s-57.308 128-128 128S0 198.692 0 128S57.308 0 128 0"
 				/>
 				<path
-					d="M13 10.5V18"
-					stroke="currentColor"
-					strokeWidth="1.5"
-					strokeLinecap="round"
-					strokeLinejoin="round"
-				/>
-				<path
-					d="M17 10.5H13H9"
-					stroke="currentColor"
-					strokeWidth="1.5"
-					strokeLinecap="round"
-					strokeLinejoin="round"
-				/>
-				<path
-					d="M9 14.5H13"
-					stroke="currentColor"
-					strokeWidth="1.5"
-					strokeLinecap="round"
-					strokeLinejoin="round"
+					fill="#fff"
+					d="M140.463 160.712v25.03q6.025 3.13 14.25 4.694q8.226 1.564 17.34 1.564q8.882 0 16.876-1.721q7.994-1.72 14.018-5.671q6.024-3.95 9.539-10.325T216 158.522q0-6.805-2.008-11.929a27.9 27.9 0 0 0-5.793-9.112q-3.785-3.99-9.075-7.157q-5.29-3.168-11.933-5.984q-4.866-2.034-8.728-3.95q-3.86-1.916-6.565-3.911q-2.703-1.995-4.17-4.224t-1.468-5.045q0-2.581 1.313-4.654q1.314-2.073 3.707-3.56q2.395-1.486 5.87-2.307q3.476-.82 7.724-.821q3.09 0 6.526.47q3.438.468 6.913 1.446a48 48 0 0 1 6.758 2.464a37 37 0 0 1 6.063 3.442V80.302q-5.638-2.19-12.319-3.246Q192.135 76 183.484 76q-8.805 0-16.683 1.916q-7.878 1.917-13.864 5.984t-9.461 10.364T140 109.322q0 11.185 6.372 19.085t19.348 13.376a260 260 0 0 1 9.5 4.146q4.401 2.033 7.607 4.223q3.205 2.191 5.059 4.772t1.854 5.866a9.06 9.06 0 0 1-1.159 4.498q-1.158 2.073-3.514 3.598t-5.87 2.386q-3.515.86-8.225.86q-8.033 0-15.911-2.855t-14.598-8.565m-42.752-62.17H130V78H40v20.541h32.132V190H97.71z"
 				/>
 			</svg>
 		),
@@ -311,18 +269,6 @@ async function ProductList({ category }) {
 				description:
 					"Understanding how TypeScript infers types and when to use assertions",
 				level: "Beginner",
-			},
-			{
-				title: "Generics & Utility Types",
-				description:
-					"Master reusable code with generics and built-in utility types",
-				level: "Intermediate",
-			},
-			{
-				title: "Advanced Type Patterns",
-				description:
-					"Explore conditional types, mapped types, and template literal types",
-				level: "Advanced",
 			},
 		],
 		codeSnippet: `// Advanced TypeScript patterns for API response handling
